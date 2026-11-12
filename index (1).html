@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ІнфоПортал — Головна</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <!-- Шапка -->
+    <header class="header">
+      <div class="logo">
+        <span class="logo-icon">📰</span>
+        <span class="logo-text">ІнфоПортал</span>
+      </div>
+      <nav class="nav">
+        <a href="#">Головна</a>
+        <a href="#">Політика</a>
+        <a href="#">Економіка</a>
+        <a href="#">Технології</a>
+        <a href="#">Спорт</a>
+        <a href="#">Культура</a>
+      </nav>
+    </header>
+
+    <!-- Основний контент -->
+    <main class="main">
+      <!-- Блок новин (CSS Grid) -->
+      <section class="news-grid">
+        <!-- Головна новина (2 колонки × 2 рядки) -->
+        <article class="news-card featured">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/featured/800/500" alt="Головна новина">
+          </div>
+          <div class="news-content">
+            <span class="tag">Головне</span>
+            <h2>Україна запускає нову національну програму цифрової освіти для всіх регіонів</h2>
+            <p>Уряд затвердив масштабну ініціативу, яка охопить школи, університети та центри підвищення кваліфікації. Програма передбачає безкоштовний доступ до сучасних онлайн-курсів та обладнання.</p>
+            <div class="meta">
+              <time datetime="2026-11-12">12 листопада 2026</time>
+              <span>·</span>
+              <span>8 хв читання</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Новина 2 -->
+        <article class="news-card">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/news2/600/400" alt="Новина">
+          </div>
+          <div class="news-content">
+            <span class="tag tech">Технології</span>
+            <h3>Штучний інтелект допомагає прогнозувати погоду з точністю 95%</h3>
+            <div class="meta">
+              <time>11 листопада</time>
+            </div>
+          </div>
+        </article>
+
+        <!-- Новина 3 -->
+        <article class="news-card">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/news3/600/400" alt="Новина">
+          </div>
+          <div class="news-content">
+            <span class="tag economy">Економіка</span>
+            <h3>Гривня зміцніла: аналітики пояснюють причини</h3>
+            <div class="meta">
+              <time>11 листопада</time>
+            </div>
+          </div>
+        </article>
+
+        <!-- Новина 4 (ширша) -->
+        <article class="news-card wide">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/news4/700/350" alt="Новина">
+          </div>
+          <div class="news-content">
+            <span class="tag sport">Спорт</span>
+            <h3>Українська збірна вийшла у фінал чемпіонату Європи</h3>
+            <p>Історична перемога у півфіналі відкрила шлях до головного матчу турніру.</p>
+            <div class="meta">
+              <time>10 листопада</time>
+            </div>
+          </div>
+        </article>
+
+        <!-- Новина 5 -->
+        <article class="news-card">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/news5/600/400" alt="Новина">
+          </div>
+          <div class="news-content">
+            <span class="tag culture">Культура</span>
+            <h3>Відкрився новий сучасний музей у Львові</h3>
+            <div class="meta">
+              <time>10 листопада</time>
+            </div>
+          </div>
+        </article>
+
+        <!-- Новина 6 -->
+        <article class="news-card">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/news6/600/400" alt="Новина">
+          </div>
+          <div class="news-content">
+            <span class="tag politics">Політика</span>
+            <h3>Парламент ухвалив закон про прозорість фінансування</h3>
+            <div class="meta">
+              <time>9 листопада</time>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Бічна панель -->
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Популярне</h3>
+        <ul class="popular-list">
+          <li>
+            <span class="rank">1</span>
+            <a href="#">Як зміняться тарифи на електроенергію у 2027 році</a>
+          </li>
+          <li>
+            <span class="rank">2</span>
+            <a href="#">Топ-5 технологій, які змінять освіту</a>
+          </li>
+          <li>
+            <span class="rank">3</span>
+            <a href="#">Експерти розповіли про нові правила в'їзду</a>
+          </li>
+          <li>
+            <span class="rank">4</span>
+            <a href="#">Львів готується до великого культурного фестивалю</a>
+          </li>
+          <li>
+            <span class="rank">5</span>
+            <a href="#">Що буде з курсом долара до кінця року</a>
+          </li>
+        </ul>
+
+        <div class="sidebar-ad">
+          <p>Реклама</p>
+          <div class="ad-placeholder">Ваше місце для банера</div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Підвал -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-about">
+          <strong>ІнфоПортал</strong>
+          <p>Актуальні новини України та світу. Оперативно, чесно, зрозуміло.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Про нас</a>
+          <a href="#">Контакти</a>
+          <a href="#">Редакційна політика</a>
+          <a href="#">Реклама</a>
+        </div>
+        <div class="footer-copy">
+          © 2026 ІнфоПортал. Усі права захищено.
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
